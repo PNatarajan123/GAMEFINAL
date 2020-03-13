@@ -15,6 +15,8 @@
 		1304139824193B4D00267813 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1304139624193B4D00267813 /* LaunchScreen.storyboard */; };
 		130413A324193B4E00267813 /* GAMEFINALTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 130413A224193B4E00267813 /* GAMEFINALTests.swift */; };
 		130413AE24193B4E00267813 /* GAMEFINALUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 130413AD24193B4E00267813 /* GAMEFINALUITests.swift */; };
+		136F083C241A8AF600709998 /* CelciusLab.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 136F083B241A8AF600709998 /* CelciusLab.storyboard */; };
+		136F083E241A8B5500709998 /* CelciusLab.swift in Sources */ = {isa = PBXBuildFile; fileRef = 136F083D241A8B5500709998 /* CelciusLab.swift */; };
 		13ACB40E2419403B00984CB5 /* Pythagoreas.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 13ACB40D2419403B00984CB5 /* Pythagoreas.storyboard */; };
 		313805894A123065EE4D98E8 /* libPods-GAMEFINAL.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D7AE5068D593BBFA5C4302C /* libPods-GAMEFINAL.a */; };
 /* End PBXBuildFile section */
@@ -52,6 +54,8 @@
 		130413AD24193B4E00267813 /* GAMEFINALUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GAMEFINALUITests.swift; sourceTree = "<group>"; };
 		130413AF24193B4E00267813 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		13474E963ADB11B4D41CF60E /* Pods-GAMEFINAL.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GAMEFINAL.debug.xcconfig"; path = "Target Support Files/Pods-GAMEFINAL/Pods-GAMEFINAL.debug.xcconfig"; sourceTree = "<group>"; };
+		136F083B241A8AF600709998 /* CelciusLab.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = CelciusLab.storyboard; sourceTree = "<group>"; };
+		136F083D241A8B5500709998 /* CelciusLab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CelciusLab.swift; sourceTree = "<group>"; };
 		13ACB40D2419403B00984CB5 /* Pythagoreas.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Pythagoreas.storyboard; sourceTree = "<group>"; };
 		6D7AE5068D593BBFA5C4302C /* libPods-GAMEFINAL.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GAMEFINAL.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA6D8CF2761617C60FAE8F63 /* Pods-GAMEFINAL.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GAMEFINAL.release.xcconfig"; path = "Target Support Files/Pods-GAMEFINAL/Pods-GAMEFINAL.release.xcconfig"; sourceTree = "<group>"; };
@@ -120,6 +124,7 @@
 				1304138B24193B4900267813 /* AppDelegate.swift */,
 				1304138D24193B4900267813 /* SceneDelegate.swift */,
 				1304138F24193B4900267813 /* ViewController.swift */,
+				136F083D241A8B5500709998 /* CelciusLab.swift */,
 				1304139424193B4D00267813 /* Assets.xcassets */,
 				1304139924193B4D00267813 /* Info.plist */,
 			);
@@ -150,6 +155,7 @@
 				1304139624193B4D00267813 /* LaunchScreen.storyboard */,
 				1304139124193B4900267813 /* Main.storyboard */,
 				13ACB40D2419403B00984CB5 /* Pythagoreas.storyboard */,
+				136F083B241A8AF600709998 /* CelciusLab.storyboard */,
 			);
 			path = STORYBOARDS;
 			sourceTree = "<group>";
@@ -268,6 +274,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				136F083C241A8AF600709998 /* CelciusLab.storyboard in Resources */,
 				13ACB40E2419403B00984CB5 /* Pythagoreas.storyboard in Resources */,
 				1304139824193B4D00267813 /* LaunchScreen.storyboard in Resources */,
 				1304139524193B4D00267813 /* Assets.xcassets in Resources */,
@@ -323,6 +330,7 @@
 			files = (
 				1304139024193B4900267813 /* ViewController.swift in Sources */,
 				1304138C24193B4900267813 /* AppDelegate.swift in Sources */,
+				136F083E241A8B5500709998 /* CelciusLab.swift in Sources */,
 				1304138E24193B4900267813 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
